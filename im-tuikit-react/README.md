@@ -1,6 +1,6 @@
-# Official React SDK for [Tencent Cloud IM(Instant Messaging)](https://getstream.io/chat/sdk/react/)
-# Web
-The web demo is implemented based on the
+# Official React SDK for [Tencent Cloud IM](https://getstream.io/chat/sdk/react/)
+
+>The web demo is implemented based on the
 IM chat-uikit-react. chat-uikit-react provides
 features such as management of conversations,
 chats, groups, and profiles. With chat-uikit-react,
