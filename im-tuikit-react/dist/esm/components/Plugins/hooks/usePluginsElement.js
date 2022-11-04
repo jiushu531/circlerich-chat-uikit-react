@@ -1,0 +1,1 @@
+import{useMemo as e}from"react";function r(r){var n=r.plugins,i=r.showNumber;return e((function(){return{showPicker:null==n?void 0:n.slice(0,i),elements:null==n?void 0:n.slice(i)}}),[n])}export{r as usePluginsElement};

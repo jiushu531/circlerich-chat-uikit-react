@@ -1,0 +1,1 @@
+"use strict";var e=require("tslib"),r=require("react/jsx-runtime"),s=require("react");module.exports=function(i){var t=i.enrichedMessageList,n=i.TUIMessage;return s.useMemo((function(){return null==t?void 0:t.map((function(s,i){var t="".concat(JSON.stringify(s)).concat(i);return r.jsx("li",e.__assign({className:"message-list-item"},{children:r.jsx(n,{message:s})}),t)}))}),[t])};

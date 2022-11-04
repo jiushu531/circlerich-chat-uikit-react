@@ -1,0 +1,1 @@
+import{__assign as r}from"tslib";import{jsx as e}from"react/jsx-runtime";import t from"react";function o(t){var o=t.listType;return"conversation"===o?e("p",r({role:"listitem"},{children:"You have no conversation currently"})):"message"===o||"chat"===o?null:e("p",{children:"No items exist"})}var i=t.memo(o);export{i as EmptyStateIndicator};

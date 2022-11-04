@@ -1,0 +1,1 @@
+import{useCallback as t}from"react";import{CONSTANT_DISPATCH_TYPE as e}from"../../../constants.js";function r(r){r.state;var o=r.dispatch;return{operateMessage:t((function(t){o({type:e.OPERATE_MESSAGE,value:t})}),[o])}}export{r as useHandleMessage};

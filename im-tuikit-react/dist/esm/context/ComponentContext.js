@@ -1,0 +1,1 @@
+import{__assign as r}from"tslib";import{jsx as t}from"react/jsx-runtime";import e,{useContext as o}from"react";var i=e.createContext(void 0);function n(e){var o=e.children,n=e.value;return t(i.Provider,r({value:n},{children:o}))}function a(r){var t=o(i);return t||{}}export{i as ComponentContext,n as ComponentProvider,a as useComponentContext};

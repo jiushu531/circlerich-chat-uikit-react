@@ -1,0 +1,17 @@
+.profile {
+  background: #F9FAFB;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  .profile-content {
+    display: flex;
+    align-items: center;
+    .profile-name {
+      font-weight: 400;
+      margin-left: 10px;
+      font-size: 12px;
+    }
+  }
+}

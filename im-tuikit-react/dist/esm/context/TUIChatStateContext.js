@@ -1,0 +1,1 @@
+import{__assign as r}from"tslib";import{jsx as t}from"react/jsx-runtime";import e,{useContext as n}from"react";var o=e.createContext(null);function i(e){var n=e.children,i=e.value;return t(o.Provider,r({value:i},{children:n}))}function a(r){var t=n(o);return!t&&r?{}:t}export{o as TUIChatStateContext,i as TUIChatStateContextProvider,a as useTUIChatStateContext};

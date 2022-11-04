@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var e=require("tslib"),r=require("react/jsx-runtime");exports.ConversationListContainer=function(i){var t=i.children;return r.jsx("div",e.__assign({className:"conversation-list-container"},{children:t}))};

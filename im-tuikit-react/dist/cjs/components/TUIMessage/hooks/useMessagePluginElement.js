@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var e=require("tslib"),r=require("react/jsx-runtime");exports.useMessagePluginElement=function(s){var n=s.children,t=s.handle;return r.jsx("div",e.__assign({className:"message-plugin-box",role:"button",tabIndex:0,onClick:t},{children:n}))};

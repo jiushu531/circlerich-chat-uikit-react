@@ -1,0 +1,1 @@
+import{__assign as r}from"tslib";import{jsx as e}from"react/jsx-runtime";var n=function(n){var t=n.children,i=n.handle;return e("div",r({className:"message-plugin-box",role:"button",tabIndex:0,onClick:i},{children:t}))};export{n as useMessagePluginElement};

@@ -1,0 +1,1 @@
+import{__assign as r}from"tslib";import{jsx as e,jsxs as t}from"react/jsx-runtime";import o from"react";function m(o){var m=o.context;o.message;var i=o.children;return t("div",r({className:"message-video"},{children:[e("video",{muted:!0,controls:!0,src:m.url}),i]}))}var i=o.memo(m);function n(t){return e(i,r({},t))}export{n as MessageVideo};

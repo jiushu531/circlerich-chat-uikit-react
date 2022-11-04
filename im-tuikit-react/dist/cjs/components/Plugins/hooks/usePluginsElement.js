@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var e=require("react");exports.usePluginsElement=function(r){var u=r.plugins,s=r.showNumber;return e.useMemo((function(){return{showPicker:null==u?void 0:u.slice(0,s),elements:null==u?void 0:u.slice(s)}}),[u])};

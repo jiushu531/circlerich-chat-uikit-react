@@ -1,0 +1,1 @@
+import{__assign as r}from"tslib";import{jsx as e,jsxs as t}from"react/jsx-runtime";import m from"react";function a(m){var a=m.context,c=m.message,o=m.children;return t("div",r({className:"bubble message-face bubble-".concat(c.flow)},{children:[e("img",{className:"img",src:a.url,alt:""}),o]}))}var c=m.memo(a);function o(t){return e(c,r({},t))}export{o as MessageFace};

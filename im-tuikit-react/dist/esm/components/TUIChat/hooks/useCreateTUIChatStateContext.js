@@ -1,0 +1,1 @@
+import{__rest as e,__assign as s}from"tslib";import{useMemo as t}from"react";function i(i){var r=i.tim,a=i.conversation,m=i.messageList,o=i.messageListRef,n=e(i,["tim","conversation","messageList","messageListRef"]);return t((function(){return s({tim:r,conversation:a,messageList:m,messageListRef:o},n)}),[r,a,m,o,n])}export{i as default};
