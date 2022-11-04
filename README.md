@@ -24,8 +24,8 @@ Also, the code is [open source](https://github.com/jiushu531/circlerich-chat-uik
 ## Directory Structure
 ```
 |-- circlerich-chat-uikit-react
-    |-- im-tuikit-react //source code
-    |-- sample-chat //a demo is used to guide the use of im-tuikit-react
+    |-- chat-uikit-react //source code
+    |-- sample-chat //a demo is used to guide the use of chat-uikit-react
     |-- .gitignore
     |-- LICENSE
     |-- README.md

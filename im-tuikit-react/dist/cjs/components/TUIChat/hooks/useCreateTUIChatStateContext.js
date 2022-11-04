@@ -1,1 +1,0 @@
-"use strict";var e=require("tslib"),s=require("react");module.exports=function(t){var i=t.tim,r=t.conversation,a=t.messageList,n=t.messageListRef,m=e.__rest(t,["tim","conversation","messageList","messageListRef"]);return s.useMemo((function(){return e.__assign({tim:i,conversation:r,messageList:a,messageListRef:n},m)}),[i,r,a,n,m])};

@@ -1,1 +1,0 @@
-"use strict";var e=require("./_commonjsHelpers.js");function r(e){return Object.freeze({__proto__:null,default:e})}var n=r(require("../node_modules/tiny-warning/dist/tiny-warning.esm.js")),t=e.getAugmentedNamespace(n);module.exports=t;

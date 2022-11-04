@@ -1,1 +1,0 @@
-import{__assign as r}from"tslib";import{jsx as i}from"react/jsx-runtime";function t(t){var n=t.children;return i("div",r({className:"conversation-list-container"},{children:n}))}export{t as ConversationListContainer};

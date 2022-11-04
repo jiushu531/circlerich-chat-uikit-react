@@ -1,1 +1,0 @@
-import{__assign as e}from"tslib";import{jsx as r}from"react/jsx-runtime";import{useMemo as t}from"react";function i(i){var n=i.enrichedMessageList,s=i.TUIMessage;return t((function(){return null==n?void 0:n.map((function(t,i){var n="".concat(JSON.stringify(t)).concat(i);return r("li",e({className:"message-list-item"},{children:r(s,{message:t})}),n)}))}),[n])}export{i as default};

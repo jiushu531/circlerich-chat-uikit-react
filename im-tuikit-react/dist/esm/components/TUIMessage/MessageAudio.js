@@ -1,1 +1,0 @@
-import{__assign as r}from"tslib";import{jsx as e,jsxs as t}from"react/jsx-runtime";import m from"react";function o(m){var o=m.context;m.message;var i=m.children;return t("div",r({className:"message-audio"},{children:[e("audio",{muted:!0,src:o.url}),i]}))}var i=m.memo(o);function a(t){return e(i,r({},t))}export{a as MessageAudio};
