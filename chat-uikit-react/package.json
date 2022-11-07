@@ -1,6 +1,6 @@
 {
   "name": "@circlerich/chat-uikit-react",
-  "version": "1.0.13",
+  "version": "1.0.15",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "license": "MIT",
@@ -47,7 +47,7 @@
     "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-terser": "^7.0.2",
     "sass": "^1.54.9",
-    "tslib": "^2.4.1",
+    "tslib": "^2.4.0",
     "typescript": "^4.8.3"
   },
   "dependencies": {
