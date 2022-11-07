@@ -4,7 +4,14 @@
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "license": "MIT",
-  "keywords": ["react", "chat", "im", "messaging", "conversation"],
+  "keywords": [
+    "react",
+    "chat",
+    "im",
+    "messaging",
+    "conversation",
+    "typescript"
+  ],
   "scripts": {
     "build": "yarn clean && yarn run rollup -c",
     "start": "yarn run rollup -c -w",
@@ -40,7 +47,7 @@
     "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-terser": "^7.0.2",
     "sass": "^1.54.9",
-    "tslib": "^2.4.0",
+    "tslib": "^2.4.1",
     "typescript": "^4.8.3"
   },
   "dependencies": {
@@ -50,6 +57,7 @@
     "tim-upload-plugin": "^1.0.5"
   },
   "peerDependencies": {
+    "tslib": "^2.4.1",
     "date-fns": "^2.29.3",
     "react": "^18.2.0",
     "tim-js-sdk": "^2.23.0",

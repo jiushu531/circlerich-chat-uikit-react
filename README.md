@@ -1,4 +1,4 @@
-# Official React SDK for [Tencent Cloud IM](https://getstream.io/chat/sdk/react/)
+# Chat UIKit React for [Tencent Cloud IM](https://www.tencentcloud.com/document/product/1047/34279/)
 >The web demo is implemented based on the
 IM chat-uikit-react. chat-uikit-react provides
 features such as management of conversations,
@@ -45,32 +45,32 @@ import '@tencentcloud/chat-uikit-react/dist/cjs/index.css';
 import TIM, { TIMUploadPlugin } from 'tim-js-sdk';
 
 const init = async () => {
-  return new Promise((resolve, reject) => {
+   return new Promise((resolve, reject) => {
       const tim = TIM.create({ SDKAppID: 000 });
       tim?.registerPlugin({ 'tim-upload-plugin': TIMUploadPlugin });
       const onReady = () => { resolve(tim); };
       tim.on(TIM.EVENT.SDK_READY, onReady);
       tim.login({
-        userID: 'xxx',
-        userSig: 'xxx',
+         userID: 'xxx',
+         userSig: 'xxx',
       });
-  });
+   });
 }
 
 export function SampleChat() {
-    const [tim, setTim] = useState<TIM>();
-    useEffect(() => {
-        (async ()=>{
-          const tim = await init()
-          setTim(tim)
-        })()
-    }, [])
+   const [tim, setTim] = useState<TIM>();
+   useEffect(() => {
+      (async ()=>{
+         const tim = await init()
+         setTim(tim)
+      })()
+   }, [])
 
-    return (
-      <div style={{height: '100vh',width: '100vw'}}>
-        <TUIKit tim={tim}></TUIKit>
-      </div>
-    );
+   return (
+           <div style={{height: '100vh',width: '100vw'}}>
+              <TUIKit tim={tim}></TUIKit>
+           </div>
+   );
 }
 ```
 ## Customizing Styles
@@ -84,7 +84,7 @@ import './App.css';
 ### Step 1. Download the source code
 ```
 # Run the code in CLI
-$ git clone git@github.com:jiushu531/circlerich-chat-uikit-react.git
+$ git clone https://github.com/jiushu531/circlerich-chat-uikit-react.git
 # Go to the project
 $ cd circlerich-chat-uikit-react/sample-chat
 # Install dependencies of the demo
